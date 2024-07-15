@@ -3,6 +3,11 @@ import HeroSection from './HeroSection'
 import TodaysHighlight from './TodaysHighlight'
 import MasonryGrid from './MasonryGrid'
 import RotatedText from '@/components/decorators/RotatedText'
+import Features from './Features'
+import Marquee from '@/components/magicui/marquee'
+import Testimonials from './Testimonials'
+import Pricing from '@/components/pricing'
+import Team from './Team'
 
 const AuthScreen = () => {
   return (
@@ -28,6 +33,10 @@ const AuthScreen = () => {
               </p>
               <MasonryGrid />
             </div>
+            <Features />
+            <Testimonials />
+            <Pricing />
+            <Team />
           </div>
         </div>
       </div>
